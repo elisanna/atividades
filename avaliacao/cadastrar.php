@@ -12,10 +12,11 @@
     
     if(!isset($_SESSION["cadastroProdutos"])) {
         $_SESSION["cadastroProdutos"] = array();
+    }
         
         $produto = array("nomeProduto" => $nomeProduto, "produtoNovo" => $produtoNovo, "cor" => $cor, "prazo" => $prazo, "detalhes" => $detalhes);
         
         array_push($_SESSION["cadastroProdutos"], $produto);
         
         echo "Cadastro realizado com sucesso!";
-    }
+    ?>
