@@ -10,7 +10,7 @@
                 <option>15 Dias </option>
               </fieldset></select>
               <br/><br/>
-                <label>Cor do Produto:</label> <br/>
+                <label>Selecione Produto:</label> <br/>
                 <input type="radio" name="cor" value="Vermelho" /><label>Vermelho</label>
                 <input type="radio" name="cor" value="Cinza" /><label>Cinza</label>
                 <input type="radio" name="cor" value="Azul" /><label> Azul</label>
