@@ -1,0 +1,27 @@
+<label>Nome do Livro: <br/></label><input type="text" name="nomeLivro" />
+              <br/><br/>   
+        <label>Nome do Autor: <br/></label><input type="text" name="autor" />
+              <br/><br/>
+        <label>ISBN: <br/></label><input type="text" name="isbn" />
+              <br/><br/>
+            <input type="checkbox" value="sim" name="novo" />
+              <label> Livro Novo: </label>
+              <br/>
+            <input type="radio" name="genero" value="Romance" checked="checked" /><label>Romance</label>
+            <input type="radio" name="genero" value="Ficção Policial" /><label>Ficção Policial</label>
+            <input type="radio" name="genero" value="Ficção cientifíca" /><label>Ficção cientifíca </label>
+            <input type="radio" name="genero" value="Dicionários" /><label>Dicionários </label>
+            <input type="radio" name="genero" value="Livro didático" /><label>Livro didático </label>
+            
+              <br/><br/>
+            <label>Formato do Livro: <br/></label>
+            <select name="formato">
+                <option>E-book</option>
+                <option>Capa Dura</option>
+                <option>Edição de Bolso</option>
+                <option>Edição de colecionador</option>
+                <option>Mangá</option>
+            </select>
+                <br/><br/>
+                <label>Sinopse do Livro: <br/></label>
+                <textarea name="sinopse" rows="5" cols="20"></textarea> 
