@@ -1,0 +1,57 @@
+body {
+        background: #FCFCFC;
+        margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	}
+span{
+    color: red;
+    text-shadow: 2px 2px #5F26C2;
+}
+
+section{
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 70%;
+    text-align: justify;
+    font-size: 19px;   
+}
+
+header{
+    background-color: #A64E93;
+    height: 50px;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-bottom: 20px;
+    
+}
+
+header h1{
+    margin: 0;
+    text-align: center;
+    width : 800px;
+}
+section h2{
+    color: teal;
+    text-shadow: 2px 2px black;
+}
+
+section h4{
+    text-align: center;
+    color: Gray;
+    text-shadow: 2px 2px black;
+}
+
+img{
+    width: 400px ; 
+    height: 300px; 
+}
+footer{
+    margin-top: 25px;
+    text-shadow: 2px 2px #ccc;
+}
+marquee{
+    direction: right;
+    behavior: alternate;
+    scrolldely: 3;
+}
